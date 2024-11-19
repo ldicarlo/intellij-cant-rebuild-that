@@ -6,4 +6,5 @@ import org.mapstruct.Mapping;
 public interface BrandMapper {
     @Mapping(source = "name", target = "name")
     BrandOut map(Brand brand);
+
 }
